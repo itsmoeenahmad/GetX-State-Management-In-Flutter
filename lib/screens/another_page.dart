@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx/home_screen.dart';
+import 'home_screen.dart';
 
 class another_page extends StatelessWidget {
   const another_page({super.key});

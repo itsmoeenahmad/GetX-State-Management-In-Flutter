@@ -19,6 +19,8 @@ samples, guidance on mobile development, and a full API reference.
 
 GetX Learning:
 
+Blog Link: https://blog.logrocket.com/ultimate-guide-getx-state-management-flutter/
+
 Introduction -> Convert the STL class to STF using GETx -
 
 -> Import it's package & write the MaterialApp as GetMaterialApp
@@ -33,7 +35,8 @@ Introduction -> Convert the STL class to STF using GETx -
 *Page Routes
 ->We will also do routing(From one page to another) using Getx using
 
-Get.to(AnotherPage());
+Get.to(AnotherPage()); //Same it is Navigator.push
+Get.back(Page()); //Same it is Navigator.pop
 Get.offAll(....); Never come back!
 
 
